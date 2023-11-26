@@ -51,7 +51,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ', url='tg://settings')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4KInAACsQoAAoHSSFYub2D15dGHfy8E") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAEK0dtlYxDZInU8kiVfltcT8wEDAAE2MqUAAoEHAAJ0XnlVDJKFm0k0GZUzBA") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -278,7 +278,7 @@ async def start(client, message):
                     [
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                     ], [
-                        InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('Bro please agar aapko download karna nahi aata to mujpe click krke video dekhlo fir aapke liye easy hovega (it's a request) 😑😊', url=await get_tutorial(chat_id))
                     ]
                 ]
             )
@@ -338,7 +338,7 @@ async def start(client, message):
                 )
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie Files/Videos will be deleted in <b><u>10 mins</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this ALL Files/Videos to your Saved Messages and Start Download there</i></b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️savdhaan 😁❗️</u></b>\n\nAapki Yeh Movie Files/Videos main delete kardunga <b><u>10 mins main</u> 🤐 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Main aapse request karta hu K isko kahin forward Karlo aur phir download start karo...Isse Aapki Files kabhi delete nahin hongi ✍️💖</i></b>")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
@@ -361,7 +361,7 @@ async def start(client, message):
                         [
                             InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                         ], [
-                            InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
+                            InlineKeyboardButton('Bro please agar aapko download karna nahi aata to mujpe click krke video dekhlo fir aapke liye easy hovega (it's a request) 😑😊', url=await get_tutorial(chat_id))
                         ]
                     ]
                 )
@@ -391,15 +391,8 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                      InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/hdlinks4uu'),
-                      InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-                   ],[
-                      InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/khandudon302")
-                     ],
-                     [
                         InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                      ]
-                    ]
                 )
             )
             filetype = msg.media
@@ -453,12 +446,6 @@ async def start(client, message):
         protect_content=True if pre == 'filep' else False,
         reply_markup=InlineKeyboardMarkup(
             [
-             [
-              InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url='https://t.me/hdlinks4uu'),
-              InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-           ],[
-              InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/khandudon302")
-             ],
              [
               InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
              ]
