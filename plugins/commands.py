@@ -278,7 +278,7 @@ async def start(client, message):
                     [
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                     ], [
-                        InlineKeyboardButton('Bro please agar aapko download karna nahi aata to mujpe click krke video dekhlo fir aapke liye easy hovega (it's a request) 😑😊', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('Bro please agar aapko download karna nahi aata to mujpe click krke video dekhlo fir aapke liye easy hovega', url=await get_tutorial(chat_id))
                     ]
                 ]
             )
