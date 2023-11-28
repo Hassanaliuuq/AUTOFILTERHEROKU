@@ -28,7 +28,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://t.me/hdlinks4uu"),
                     InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
                 ],[
-                    InlineKeyboardButton('ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ', callback_data='source')
+                    InlineKeyboardButton('⚠ ᴅᴍᴄᴀ ⚠', url='https://telegra.ph/DMCA-REPORT-11-28')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -48,7 +48,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://t.me/hdlinks4uu"),
                     InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
                 ],[
-                    InlineKeyboardButton('ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ', callback_data='source')
+                    InlineKeyboardButton('⚠ ᴅᴍᴄᴀ ⚠', url='https://telegra.ph/DMCA-REPORT-11-28')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEK0dtlYxDZInU8kiVfltcT8wEDAAE2MqUAAoEHAAJ0XnlVDJKFm0k0GZUzBA") 
@@ -96,7 +96,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://t.me/hdlinks4uu"),
                     InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
                 ],[
-                    InlineKeyboardButton('ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ', callback_data='source')
+                    InlineKeyboardButton('⚠ ᴅᴍᴄᴀ ⚠', url='https://telegra.ph/DMCA-REPORT-11-28')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
