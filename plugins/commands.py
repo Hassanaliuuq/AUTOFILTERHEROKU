@@ -48,7 +48,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://t.me/hdlinks4uu"),
                     InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
                 ],[
-                    InlineKeyboardButton('ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ', url='tg://settings')
+                    InlineKeyboardButton('ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ', callback_data='source')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgUAAxkBAAEK0dtlYxDZInU8kiVfltcT8wEDAAE2MqUAAoEHAAJ0XnlVDJKFm0k0GZUzBA") 
@@ -96,7 +96,7 @@ async def start(client, message):
                     InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url="https://t.me/hdlinks4uu"),
                     InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
                 ],[
-                    InlineKeyboardButton('ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ', url='tg://settings')
+                    InlineKeyboardButton('ᴍʏ ʙᴇꜱᴛ ꜰʀɪᴇɴᴅ', callback_data='source')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
