@@ -257,7 +257,7 @@ async def start(client, message):
                     [
                         InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
                     ], [
-                        InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('Bro please video dekh le Kese karte download', url=await get_tutorial(chat_id))
                     ]
                 ]
             )
@@ -338,7 +338,7 @@ async def start(client, message):
                 )
             )
             filesarr.append(msg)
-        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️savdhaan 😁❗️</u></b>\n\nAapki Yeh Movie Files/Videos main delete kardunga <b><u>10 mins main</u> 🤐 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Main aapse request karta hu K isko kahin forward Karlo aur phir download start karo...Isse Aapki Files kabhi delete nahin hongi ✍️💖</i></b>")
+        k = await client.send_message(chat_id = message.from_user.id, text=f"<b><u>❗️savdhaan 😁❗️</u></b>\n\nAapki Yeh Movie Files/Videos main delete kardunga <b><u>10 mins main</u> 🤐 <i></b>(Due to Copyright Issues 😔)</i>.\n\n<b><i>Main aapse request karta hu K isko kahin forward Karlo aur phir download start karo...Isse Aapki Files kabhi delete nahin hongi ✍️👑</i></b>")
         await asyncio.sleep(600)
         for x in filesarr:
             await x.delete()
