@@ -3,14 +3,14 @@ class script(object):
 ɪ ᴀᴍ ᴘᴏᴡᴇʀ ᴀᴜᴛᴏ ꜰɪʟᴛʀ ʙᴏᴛ
 ɪ ᴀᴍ ᴘᴍ ꜱʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ😍
 
-ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @KhanDuDon302 😏"""
+ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Badal6667Rai 😏"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
--------> Name : Professor
--------> Dev : @Khandudon302
+-------> Name : Can't Share😁
+-------> Dev : @Badal6667Rai
 -------> Library : Pyrogram
 -------> Language : Python
 -------> Database : Mongodb
