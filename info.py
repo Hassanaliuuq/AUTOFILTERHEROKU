@@ -15,20 +15,20 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21845036'))
 API_HASH = environ.get('API_HASH', 'b9787357754c57417854ba8ca0d35129')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6657399606:AAEO1kUbC2AynsVkKXs1KTksQCVom-JYu7M")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6657399606:AAHsFR2wFwzinGUZlG-8leSD-71rJNe-tq8")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/45c97da5dd1fef6bd46ce.jpg')).split() #SAMPLE PIC
-NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/c605a659444a78f828a12.jpg")
+PICS = (environ.get('PICS', 'https://telegra.ph/file/10ec0218fa78721845d59.jpg')).split() #SAMPLE PIC
+NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/22a0fa2e20631805dc13c.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/khandudon302")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/c605a659444a78f828a12.jpg")
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5510849897').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002014300927').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002014300927 -1002036366565').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
@@ -53,7 +53,7 @@ SHORTLINK_URL = environ.get('SHORTLINK_URL', 'riplinker.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '25d33ab9fac4fe008a0460abf19521699a7039dd')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
-MAX_B_TN = environ.get("MAX_B_TN", "5")
+MAX_B_TN = environ.get("MAX_B_TN", "15")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_request_group_69')
@@ -64,7 +64,7 @@ MSG_ALRT = environ.get('MSG_ALRT', 'God Bless you ❤️')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002119311683'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '-1001963382900')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
-IMDB = is_enabled((environ.get('IMDB', "True")), True)
+IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
