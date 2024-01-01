@@ -152,7 +152,7 @@ async def start(client, message):
                                 InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
                             ],
                             [
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton(' Gᴇɴᴇʀᴀᴛᴇ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ !', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -171,7 +171,7 @@ async def start(client, message):
                           InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/hdlinks4uu'),
                           InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
                          ],[ 
-                            InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                            InlineKeyboardButton(' Gᴇɴᴇʀᴀᴛᴇ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ !', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
@@ -255,9 +255,9 @@ async def start(client, message):
         k = await client.send_message(chat_id=message.from_user.id,text=f"<b>Get All Files in a Single Click!!!\n\n📂 ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 5 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
+                        InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ', url=g)
                     ], [
-                        InlineKeyboardButton('Bro please video dekh le Kese karte download', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton('Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ?', url=await get_tutorial(chat_id))
                     ]
                 ]
             )
@@ -273,12 +273,12 @@ async def start(client, message):
         files_ = await get_file_details(file_id)
         files = files_[0]
         g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
-        k = await client.send_message(chat_id=user,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 20 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
+        k = await client.send_message(chat_id=user,text=f"<b>🎬Fɪʟᴇ: <code>{files.file_name}</code> \n\n⚙️Sɪᴢᴇ: {get_size(files.file_size)}\n\n⬇️Dᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ: {g}\n\n<i>⚠️ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 𝟷𝟶 ᴍɪɴᴜᴛᴇs.</i></b>", reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
+                        InlineKeyboardButton(' ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ', url=g)
                     ], [
-                        InlineKeyboardButton('Bro please video dekh le kese karte download', url=await get_tutorial(chat_id))
+                        InlineKeyboardButton(' Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ?', url=await get_tutorial(chat_id))
                     ]
                 ]
             )
@@ -331,7 +331,7 @@ async def start(client, message):
                       InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url="t.me/khandudon302")
                      ],
                      [
-                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton(' Gᴇɴᴇʀᴀᴛᴇ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ !', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
 
                      ]
                     ]
@@ -356,12 +356,12 @@ async def start(client, message):
             files_ = await get_file_details(file_id)
             files = files_[0]
             g = await get_shortlink(chat_id, f"https://telegram.me/{temp.U_NAME}?start=file_{file_id}")
-            k = await client.send_message(chat_id=message.from_user.id,text=f"<b>📕Nᴀᴍᴇ ➠ : <code>{files.file_name}</code> \n\n🔗Sɪᴢᴇ ➠ : {get_size(files.file_size)}\n\n📂Fɪʟᴇ ʟɪɴᴋ ➠ : {g}\n\n<i>Note: This message is deleted in 20 mins to avoid copyrights. Save the link to Somewhere else</i></b>", reply_markup=InlineKeyboardMarkup(
+            k = await client.send_message(chat_id=message.from_user.id,text=f"<b>🎬Fɪʟᴇ: <code>{files.file_name}</code> \n\n⚙️Sɪᴢᴇ: {get_size(files.file_size)}\n\n⬇️Dᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ: {g}\n\n<i>⚠️ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 𝟷𝟶 ᴍɪɴᴜᴛᴇs</i></b>", reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('📂 Dᴏᴡɴʟᴏᴀᴅ Nᴏᴡ 📂', url=g)
+                            InlineKeyboardButton(' ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ', url=g)
                         ], [
-                            InlineKeyboardButton('Bro please video dekh le kese karte Download', url=await get_tutorial(chat_id))
+                            InlineKeyboardButton(' Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ?', url=await get_tutorial(chat_id))
                         ]
                     ]
                 )
@@ -391,7 +391,7 @@ async def start(client, message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                      [
-                        InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                        InlineKeyboardButton(' Gᴇɴᴇʀᴀᴛᴇ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ !', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                      ]
                     ]
                 )
@@ -448,7 +448,7 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
              [
-              InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+              InlineKeyboardButton(' Gᴇɴᴇʀᴀᴛᴇ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ !', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
              ]
             ]
         )
