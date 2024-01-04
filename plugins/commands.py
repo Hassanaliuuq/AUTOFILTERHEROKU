@@ -171,7 +171,7 @@ async def start(client, message):
                           InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/hdlinks4uu'),
                           InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/movie_request_group_69')
                          ],[ 
-                            InlineKeyboardButton(' Gᴇɴᴇʀᴀᴛᴇ ꜱᴛʀᴇᴀᴍ ʟɪɴᴋ !', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                            InlineKeyboardButton(' Sᴛᴀʀᴛ ꜱᴛʀᴇᴀᴍ ʙᴏᴛ !', url='http://telegram.me/CloneFileStreamBot?start=true') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
